@@ -1,0 +1,50 @@
+DEFAULT_SCENARIO = {
+    "books": [
+        {"name": "Book_A", "author": "A. Author", "genre": "Fiction", "price": 12.99, "qty": 10, "threshold": 5},
+        {"name": "Book_B", "author": "B. Author", "genre": "SciFi",   "price": 15.99, "qty": 8,  "threshold": 5},
+        {"name": "Book_C", "author": "C. Author", "genre": "History", "price": 18.50, "qty": 12, "threshold": 5},
+        {"name": "Book_D", "author": "D. Author", "genre": "Drama",   "price": 11.00, "qty": 9,  "threshold": 5},
+        {"name": "Book_E", "author": "E. Author", "genre": "SciFi",   "price": 9.99,  "qty": 7,  "threshold": 5},
+        {"name": "Book_F", "author": "F. Author", "genre": "Fiction", "price": 13.49, "qty": 15, "threshold": 6},
+        {"name": "Book_G", "author": "G. Author", "genre": "Poetry",  "price": 8.75,  "qty": 6,  "threshold": 4},
+        {"name": "Book_H", "author": "H. Author", "genre": "Mystery", "price": 14.25, "qty": 10, "threshold": 5},
+        {"name": "Book_I", "author": "I. Author", "genre": "History", "price": 16.00, "qty": 5,  "threshold": 5},
+        {"name": "Book_J", "author": "J. Author", "genre": "Fiction", "price": 10.50, "qty": 11, "threshold": 5}
+    ],
+    "customers": [
+        {"prefs": ["Fiction", "SciFi"], "budget": 60.0},
+        {"prefs": ["History"], "budget": 45.0},
+        {"prefs": ["Drama"], "budget": 30.0},
+        {"prefs": ["Mystery"], "budget": 40.0},
+        {"prefs": ["Fiction"], "budget": 25.0},
+        {"prefs": ["SciFi"], "budget": 55.0},
+        {"prefs": ["Fiction"], "budget": 35.0},
+        {"prefs": ["Poetry"], "budget": 20.0},
+        {"prefs": ["History", "Drama"], "budget": 48.0},
+        {"prefs": ["Fiction"], "budget": 28.0},
+        {"prefs": ["SciFi"], "budget": 33.0},
+        {"prefs": ["Mystery"], "budget": 39.0},
+        {"prefs": ["Fiction", "Poetry"], "budget": 22.0},
+        {"prefs": ["Drama"], "budget": 31.0},
+        {"prefs": ["History"], "budget": 52.0},
+        {"prefs": ["Poetry"], "budget": 18.0},
+        {"prefs": ["Fiction"], "budget": 41.0},
+        {"prefs": ["SciFi"], "budget": 59.0},
+        {"prefs": ["History"], "budget": 27.0},
+        {"prefs": ["Mystery"], "budget": 36.0},
+        {"prefs": ["Fiction"], "budget": 26.0},
+        {"prefs": ["SciFi"], "budget": 47.0},
+        {"prefs": ["Fiction"], "budget": 63.0},
+        {"prefs": ["Drama"], "budget": 30.0},
+        {"prefs": ["History"], "budget": 38.0},
+        {"prefs": ["Mystery"], "budget": 44.0},
+        {"prefs": ["Fiction"], "budget": 24.0},
+        {"prefs": ["SciFi"], "budget": 46.0},
+        {"prefs": ["Fiction"], "budget": 55.0},
+        {"prefs": ["History"], "budget": 42.0}
+    ],
+    "employees": [
+        {"threshold": 5, "amount": 10},
+        {"threshold": 5, "amount": 10}
+    ]
+}

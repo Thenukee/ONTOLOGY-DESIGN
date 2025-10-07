@@ -1,0 +1,6 @@
+mesa==3.0.3
+owlready2==0.46
+pandas>=2.2.0,<2.3
+numpy>=1.26,<3.0
+matplotlib>=3.8,<3.10
+seaborn>=0.13,<0.14
