@@ -42,3 +42,31 @@ bms/
 ## 5) Notes
 - SWRL handles **inference** (e.g., `purchases(Customer, Book)`, `LowStock(InventoryItem)`); quantity increments/decrements are done by the **agents** on commit.
 - The reasoner is invoked per step; if a Java reasoner is not available, the model still runs (restocking can be handled without inference, but SWRL inferences will be visible when reasoner is available).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bms/
+├─ bms_model/
+│  ├─ ontology.py      # Ontology + SWRL
+│  ├─ bus.py           # Message bus
+│  ├─ agents.py        # CustomerAgent, EmployeeAgent, BookAgent
+│  ├─ model.py         # BookstoreModel 
+│  └─ scenarios.py     # DEFAULT_SCENARIO
+├─ run_simulation.py
+└─ README.md
